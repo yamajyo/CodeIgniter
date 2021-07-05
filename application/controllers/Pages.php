@@ -26,4 +26,13 @@
 			$this->load->view('templates/test', $data);
 		}
 
+		public function index()
+		{
+			$data['test'] = 'テスト7';
+			$data['test2'] = 'テスト8';
+			$data['test3'] = 'テスト9';
+
+			$this->load->view('templates/test', $data);
+		}
+
 	}

@@ -52,9 +52,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['Pages'] = 'Pages/test';
+$route['pages'] = 'pages';
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
+//ここでindex関数を呼んでいる
 $route['news'] = 'news';
 $route['(:any)'] = 'pages/show/$1';
 $route['default_controller'] = 'pages/show';

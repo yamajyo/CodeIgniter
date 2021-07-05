@@ -9,6 +9,7 @@
 
     <!-- URL ヘルパーの anchor() メソッドでリンクを作成 -->
     <p><?php echo anchor('news/create', '入力を続ける'); ?></p>
+	<p><?php echo anchor('news', 'トップへ'); ?></p>
 
 </body>
 </html>

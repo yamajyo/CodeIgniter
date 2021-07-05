@@ -8,4 +8,3 @@
 	</head>
 		<body>
 			<h1><?=$title?></h1>
-			<?=anchor('news/create', '投稿')?>

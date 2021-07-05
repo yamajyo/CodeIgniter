@@ -25,3 +25,6 @@
     <input type="submit" name="submit" value="Create news item" />
 
 </form>
+<?='<br>'?>
+<?=anchor('news', 'トップへ')?>
+<?='<br>'?>

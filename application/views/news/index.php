@@ -1,3 +1,4 @@
+<?=anchor('news/create', '投稿')?>
 <h2><?=$title?></h2>
 
 <?php foreach ($news as $news_item): ?>
